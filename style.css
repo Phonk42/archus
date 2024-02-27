@@ -18,6 +18,69 @@ a {
     color: var(--clr-white) !important;
 }
 
-a:hover{
+a:hover {
     color: var(--clr-primary) !important;
+}
+
+/*banner*/
+.banner {
+    max-width: 100% !important;
+    background-color: var(--clr-secondary);
+    height: 700px;
+    display: flex;
+}
+
+.banner-title {
+    color: var(--clr-white);
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 1.35em;
+    display: grid;
+    grid-template-rows: auto;
+    width: 80%;
+}
+
+.banner-left-wrapper {
+    padding: 0 2% 0 12%;
+    margin: auto 0;
+}
+
+.banner-line {
+    background-color: #caa661;
+    width: 169px;
+    height: 2px;
+    margin: 50px 0;
+}
+
+.banner-text {
+    color: var(--clr-white);
+    width: 80%;
+    line-height: 1.643em;
+    letter-spacing: 0;
+}
+
+.banner-btn {
+    border: 2px solid var(--clr-primary);
+    color: var(--clr-white);
+    text-transform: uppercase;
+    background: transparent;
+    letter-spacing: 0.7px;
+    line-height: 1.32em;
+    font-size: 14px;
+    margin-top: 45px;
+    padding: 13.5px 20.5px 11.5px 20.5px;
+}
+
+svg {
+    margin-top: -4px;
+}
+
+.banner-btn:hover {
+    background-color: var(--clr-primary);
+    transition: var(--transition);
+}
+
+.banner-img {
+    width: 100%;
+    height: 100%;
 }
