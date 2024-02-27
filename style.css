@@ -1,0 +1,23 @@
+@import "custom-styles.css";
+
+header {
+    background-color: var(--clr-secondary);
+    height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: 'Hind', sans-serif;
+}
+
+.active {
+    color: var(--clr-primary) !important;
+}
+
+a {
+    color: var(--clr-white) !important;
+}
+
+a:hover{
+    color: var(--clr-primary) !important;
+}

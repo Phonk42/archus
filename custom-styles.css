@@ -1,0 +1,16 @@
+:root {
+    --clr-primary: #caa661;
+    --clr-secondary: #21252B;
+    --clr-white: #FFFFFF;
+    --clr-black: #212721;
+    --clr-grey: #5f656d;
+    --transition: all .3s linear;
+}
+
+@font-face {
+    font-family: 'Hind';
+    src: url('./font/Hind-SemiBold.ttf') format('woff2');
+url('./font/Hind-Bold.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
