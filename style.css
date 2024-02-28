@@ -380,7 +380,7 @@ svg {
 }
 
 .about-us-content-line {
-    background-color: #caa661;
+    background-color: var(--clr-primary);
     width: 65px;
     height: 2.5px;
     margin: 10px 0 15px 0;
@@ -389,4 +389,61 @@ svg {
 .about-us-content-text {
     color: var(--clr-white);
     font-size: 15px;
+}
+
+/*our-team*/
+.our-team {
+    padding-bottom: 81px;
+}
+
+.our-team-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our-team-title {
+    color: var(--clr-primary);
+}
+
+.our-team-line {
+    background-color: var(--clr-primary);
+    width: 65px;
+    height: 2.5px;
+    margin: 15px 0 20px 0;
+}
+
+.our-team-text {
+    color: var(--clr-grey);
+}
+
+.our-team-img-wrapper {
+    margin-top: 50px;
+}
+
+.our-team-img {
+    height: 370px;
+}
+
+.our-team-name {
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.our-team-name:hover {
+    color: var(--clr-primary);
+    transition: var(--transition);
+}
+
+i {
+    color: var(--clr-primary);
+    font-size: 15px;
+}
+
+.our-team-line-grey {
+    background-color: var(--clr-grey);
+    width: 65px;
+    margin: 20px 0;
+    height: 2px;
+    opacity: .5;
 }
