@@ -130,8 +130,8 @@ svg {
     padding-top: 45px;
 }
 
-.pb-45 {
-    padding-bottom: 45px;
+.mb-45 {
+    margin-bottom: 45px;
 }
 
 .selection {
@@ -188,4 +188,53 @@ svg {
     background-color: var(--clr-secondary);
     border: 2px solid var(--clr-secondary);
     transition: var(--transition);
+}
+
+/*project*/
+.project {
+    padding-top: 48px;
+}
+
+.project-text-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-title {
+    color: var(--clr-primary);
+    font-size: 34px;
+    font-weight: 600;
+    text-transform: none;
+    line-height: 1.344em;
+}
+
+.project-line {
+    background-color: #caa661;
+    width: 72px;
+    height: 2.5px;
+    margin: 15px 0;
+}
+
+.project-text {
+    color: var(--clr-grey);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.643em;
+    padding-bottom: 30px;
+}
+
+.project-img-wrapper {
+    display: flex;
+}
+
+.project-img-half {
+    display: flex;
+    width: 50%;
+}
+
+.project-img {
+    width: 50%;
+    object-fit: cover;
+    height: 605px;
 }
