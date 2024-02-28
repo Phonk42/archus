@@ -455,7 +455,6 @@ i {
 
 .our-contacts-map {
     background-color: lightcoral;
-    height: 540px;
 }
 
 .our-contacts-content {
@@ -487,7 +486,8 @@ i {
     color: var(--clr-grey);
     margin-top: -5px;
 }
-.our-contacts-day{
+
+.our-contacts-day {
     margin-top: 15px;
 }
 
@@ -517,5 +517,39 @@ i {
 .our-contacts-btn:hover {
     background-color: var(--clr-secondary);
     border: 2px solid var(--clr-secondary);
+    transition: var(--transition);
+}
+
+/*footer*/
+footer {
+    background-color: var(--clr-secondary);
+    height: 47px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-container {
+    color: var(--clr-grey);
+    font-size: 13px;
+}
+
+.footer-container-span {
+    color: #aeb6be;
+    cursor: pointer;
+}
+
+.footer-container-span:hover {
+    color: var(--clr-primary);
+    transition: var(--transition);
+}
+
+.footer-svg {
+    color: var(--clr-white);
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.footer-svg:hover{
+    color: var(--clr-primary);
     transition: var(--transition);
 }
