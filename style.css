@@ -87,7 +87,7 @@ svg {
 
 /*widget*/
 .container {
-    max-width: 1170px !important;
+    max-width: 1195px !important;
 }
 
 .widget {
@@ -105,14 +105,14 @@ svg {
     text-align: center;
 }
 
-.widget-line{
+.widget-line {
     background-color: #caa661;
     width: 70px;
     height: 2.5px;
     margin: 19px 0 24px 0;
 }
 
-.widget-text{
+.widget-text {
     text-align: center;
     color: var(--clr-grey);
     font-size: 16px;
@@ -121,6 +121,71 @@ svg {
     max-width: 864px;
 }
 
-.widget-img{
+.widget-img {
     margin-top: 25px;
+}
+
+/*selection*/
+.pt-45 {
+    padding-top: 45px;
+}
+
+.pb-45 {
+    padding-bottom: 45px;
+}
+
+.selection {
+    padding: 15px 0 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.selection-img {
+}
+
+.selection-content {
+    width: 50%;
+    max-width: 570px;
+    padding: 72px 82px;
+    background-color: var(--clr-third);
+}
+
+.selection-title {
+    font-size: 26px;
+    line-height: 1.5em;
+    letter-spacing: 0.7px;
+}
+
+.selection-line {
+    background-color: #caa661;
+    width: 72px;
+    height: 2.5px;
+    margin: 19px 0 24px 0;
+}
+
+.selection-text {
+    color: var(--clr-grey);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.643em;
+    max-width: 864px;
+    padding-bottom: 90px;
+}
+
+.selection-btn {
+    background-color: var(--clr-primary);
+    border: 2px solid var(--clr-primary);
+    padding: 13.5px 29px 11.5px 29px;
+    color: var(--clr-white);
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    line-height: 1.32em;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.selection-btn:hover {
+    background-color: var(--clr-secondary);
+    border: 2px solid var(--clr-secondary);
+    transition: var(--transition);
 }
