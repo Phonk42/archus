@@ -231,12 +231,59 @@ svg {
 .projects-img-half, .our-services-about-half {
     display: flex;
     width: 100%;
+    cursor: pointer;
 }
 
 .projects-img {
     width: 50%;
     object-fit: cover;
     height: 605px;
+    z-index: -1;
+}
+
+.projects-img-before {
+    opacity: 0;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    flex-direction: column;
+    width: 25%;
+    height: 605px;
+    padding: 0 40px;
+    background-color: var(--clr-secondary);
+    transition: var(--transition);
+}
+
+.projects-img-before-left {
+    margin-left: 25%;
+}
+
+.projects-img-before:hover {
+    opacity: 0.9;
+    transition: var(--transition);
+}
+
+.projects-img-before-title {
+    color: var(--clr-white);
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.38em;
+}
+
+.projects-img-before-text {
+    color: var(--clr-white);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.643em;
+}
+
+.projects-img-before-link {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--clr-primary) !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
 }
 
 /*our-services*/
@@ -284,4 +331,62 @@ svg {
     font-weight: 400;
     line-height: 1.643em;
     padding-bottom: 30px;
+}
+
+/*about-us*/
+.about-us {
+    padding-bottom: 105px;
+}
+
+.about-us-overlay {
+    background-color: black;
+    background-image: url('https://ld-wp73.template-help.com/wordpress/prod_14993/v4/wp-content/uploads/2019/08/architect-img1.png');
+    opacity: 0.9;
+    padding: 130px 0;
+}
+
+.about-us-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-us-title, .about-us-text {
+    color: var(--clr-white);
+}
+
+.about-us-line {
+    background-color: #caa661;
+    width: 65px;
+    height: 2.5px;
+    margin: 15px 0 20px 0;
+}
+
+.about-us-counter {
+    background-color: var(--clr-secondary);
+    display: flex;
+}
+
+.about-us-counter-wrapper {
+    padding: 100px 0;
+    width: 25%;
+}
+
+.about-us-content-number {
+    color: var(--clr-white);
+    font-size: 58px;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+.about-us-content-line {
+    background-color: #caa661;
+    width: 65px;
+    height: 2.5px;
+    margin: 10px 0 15px 0;
+}
+
+.about-us-content-text {
+    color: var(--clr-white);
+    font-size: 15px;
 }
