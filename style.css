@@ -409,6 +409,8 @@ svg {
 
 .our-team-title {
     color: var(--clr-primary);
+    font-size: 34px;
+    font-weight: 600;
 }
 
 .our-team-line {
@@ -460,10 +462,12 @@ i {
 }
 
 .our-contacts-map {
+    width: 50%;
     background-color: lightcoral;
 }
 
 .our-contacts-content {
+    width: 50%;
     background-color: var(--clr-third);
     padding: 55px 95px;
 }
@@ -562,10 +566,6 @@ footer {
 
 /*tablet 768*/
 @media (max-width: 1200px) {
-    .container {
-        /*max-width: 712px !important;*/
-    }
-
     /*banner*/
     .banner {
         height: 870px;
@@ -785,5 +785,230 @@ footer {
 
     .our-contacts-btn {
         margin-top: 35px;
+    }
+}
+
+/*phone 767*/
+@media (max-width: 722px) {
+    /*.container {*/
+    /*    max-width: 260px !important;*/
+    /*}*/
+    .nav-link {
+        font-size: 12px !important;
+    }
+
+    /*banner*/
+    .banner {
+        /*height: 810px;*/
+    }
+
+    .banner-title {
+        font-size: 35px;
+    }
+
+    .banner-line {
+        margin: 10px 0;
+    }
+
+    /*widget*/
+    .widget {
+        padding: 40px 0;
+    }
+
+    .widget-title {
+        font-size: 25px;
+    }
+
+    /*selection*/
+    .selection {
+        padding: 15px 0 0 0;
+        /*padding-top: 15px;*/
+        display: flex;
+        flex-direction: column;
+    }
+
+    .selection-phone {
+        flex-direction: column-reverse;
+    }
+
+    .selection-img {
+        width: 100%;
+        padding-top: 30px;
+        height: 300px;
+    }
+
+    .selection-content {
+        width: 100%;
+        padding: 30px 20px 0 20px;
+    }
+
+    /*projects*/
+    .projects {
+        padding-top: 0;
+    }
+
+    .projects-text, .our-services-text {
+        font-size: 15px;
+        padding-bottom: 15px;
+        width: 80%;
+        text-align: center;
+    }
+
+    .projects-img-half {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projects-img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .projects-img-before {
+        width: 100%;
+        height: 300px;
+    }
+
+    .projects-img-before-left {
+        margin-top: 300px;
+        margin-left: 0;
+    }
+
+    /*our-services*/
+    .our-services {
+        padding: 42px 0 5px 0;
+    }
+
+    .our-services-about-half {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .our-services-about-wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .our-services-about-title {
+        margin: 0 0 15px 0;
+        font-size: 28px;
+    }
+
+    .our-services-about-text {
+        font-size: 15px;
+        padding-bottom: 20px;
+        width: 90%;
+        text-align: center;
+    }
+
+    /*about-us*/
+    .about-us {
+        padding-bottom: 30px;
+    }
+
+    .about-us-overlay {
+        padding: 38px 0;
+    }
+
+    /*.about-us-line {*/
+    /*    margin: 15px 0;*/
+    /*}*/
+    .about-us-counter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    .about-us-counter-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        width: 100%;
+    }
+
+    .about-us-content-number {
+        font-size: 56px;
+        font-weight: 600;
+    }
+
+    /*our-team*/
+    .our-team {
+        padding-bottom: 0;
+    }
+
+    .our-team-content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .our-team-line {
+        margin: 10px 0 15px 0;
+    }
+
+    .our-team-phone-flex {
+        flex-direction: column;
+    }
+
+    .our-team-img-wrapper {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .our-team-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .our-team-line-grey {
+        margin: 10px 0 40px 0;
+    }
+
+    /*our-contacts*/
+    .our-contacts {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .our-contacts-map {
+        width: 100%;
+        height: 300px;
+    }
+
+    .our-contacts-content {
+        padding: 40px 20px;
+        width: 100%;
+    }
+
+    .our-contacts-line {
+        margin: 15px 0;
+    }
+
+    .our-contacts-text {
+        margin-bottom: 40px;
+    }
+
+    .our-contacts-address{
+        margin-top: -10px;
+        margin-bottom: 40px;
+    }
+
+    .our-contacts-phone-number, .our-contacts-email{
+        position: absolute;
+        margin-top: -40px;
+    }
+
+    .our-contacts-day {
+        margin-top: 15px;
+        margin-bottom: 40px;
+    }
+
+    .footer-phone{
+        flex-direction: column;
+        align-items: center;
     }
 }
